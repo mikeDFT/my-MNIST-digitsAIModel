@@ -11,7 +11,9 @@ import torch.optim as optim
 
 import matplotlib.pyplot as plt
 
-
+# pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# pip install matplotlib==3.9.0
+# version < 3.10 because 3.10 has an issue when plotting images
 
 def save_model():
     # Save model
